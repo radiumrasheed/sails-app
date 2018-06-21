@@ -1,5 +1,5 @@
 {
-	"name": "mup-api",
+	"name": "mup-app",
 	"private": true,
 	"version": "0.0.0",
 	"description": "a Sails application",
@@ -23,6 +23,7 @@
 		"sails-hook-grunt": "^3.0.2"
 	},
 	"scripts": {
+		"start-dev": "sails lift",
 		"start": "NODE_ENV=production node app.js",
 		"test": "npm run lint && npm run custom-tests && echo 'Done.'",
 		"lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look so good.' && htmlhint -c ./.htmlhintrc views/*.ejs && htmlhint -c ./.htmlhintrc views/**/*.ejs && htmlhint -c ./.htmlhintrc views/**/**/*.ejs && htmlhint -c ./.htmlhintrc views/**/**/**/*.ejs && htmlhint -c ./.htmlhintrc views/**/**/**/**/*.ejs && htmlhint -c ./.htmlhintrc views/**/**/**/**/**/*.ejs && htmlhint -c ./.htmlhintrc views/**/**/**/**/**/**/*.ejs && echo '✔  So do your .ejs files.' && lesshint assets/styles/ --max-warnings=0 && echo '✔  Your .less files look good, too.'",
@@ -32,7 +33,7 @@
 	"main": "app.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/anonymous node/sails user/mup-api.git"
+		"url": "git://github.com/anonymous node/sails user/mup-app.git"
 	},
 	"author": "anonymous node/sails user",
 	"license": "",

@@ -1,4 +1,4 @@
-# mup-api
+# mup-app
 
 a [Sails v1](https://sailsjs.com) application
 
