@@ -5,11 +5,11 @@
 	"description": "a Sails application",
 	"keywords": [],
 	"dependencies": {
-		"sails": "^1.0.2",
+		"sails": "^1.2.2",
 		"sails-hook-apianalytics": "^2.0.0",
 		"sails-hook-organics": "^0.13.0",
 		"sails-hook-orm": "^2.0.0-16",
-		"sails-hook-sockets": "^1.4.0",
+		"sails-hook-sockets": "^2.0.0",
 		"@sailshq/connect-redis": "^3.2.1",
 		"@sailshq/socket.io-redis": "^5.2.0",
 		"@sailshq/lodash": "^3.10.3",
